@@ -1,4 +1,4 @@
-﻿int primeiro, segundo, maior;
+﻿int primeiro, segundo, maiornumero;
 
 Console.Write("Digite o primeiro número..: ");
 primeiro = Convert.ToInt32(Console.ReadLine());
@@ -8,11 +8,11 @@ segundo= Convert.ToInt32(Console.ReadLine());
 
 if (primeiro > segundo)
 {
-    maiorNumero = primeiro;
+    maiornumero = primeiro;
 }
 else
 {
-    maiorNumero = segundo;
+    maiornumero = segundo;
 }
 
 Console.WriteLine($"O maior número é {maiorNumero}");
